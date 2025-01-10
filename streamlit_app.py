@@ -47,8 +47,6 @@ st.write("Trợ lý AI báo cáo dữ liệu")
 with st.expander("🔎 Dataframe Preview"):
     st.write(df.tail(3))
 
-from dotenv import load_dotenv
-load_dotenv()
 
 OPENAI_API_KEY= os.getenv("OPENAI_API_KEY")
 
